@@ -1,0 +1,73 @@
+body{
+    background-image : url("https://img.freepik.com/free-vector/dark-gradient-background-with-copy-space_53876-99548.jpg");
+    background-position: center;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+    text-align: center;
+}
+
+
+.container{
+    max-width: 20%;
+   
+    background-color: rgba(240, 248, 255, 0.308);
+    border-radius: 10px;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    box-shadow: rgb(0, 0, 0) 15px 15px 25px;
+}
+button{
+    
+    border-width: 1px;
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: BOLD;
+    font-size: 20px;
+    color: aqua;
+   background-color: rgba(88, 86, 86, 0.514);
+   box-shadow: black 5px 5px 15px;
+   
+}
+
+#save-btn{
+    background-color: aquamarine;
+    color: black;
+    
+}
+
+button:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+h2{
+    color: aliceblue;
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+h1{
+    color: aliceblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#save-el{
+    color: aliceblue;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
